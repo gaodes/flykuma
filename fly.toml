@@ -1,7 +1,6 @@
 # fly.toml app configuration file generated for fly-kuma on 2023-09-12T21:48:34+03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
 
 app = "fly-kuma"
 primary_region = "otp"
@@ -12,7 +11,7 @@ kill_timeout = "5s"
   auto_rollback = true
 
 [build]
-  image = "louislam/uptime-kuma:1.23.2"
+  image = "louislam/uptime-kuma:1.23.11"
 
 [env]
   PORT = "8080"
