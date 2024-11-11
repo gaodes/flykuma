@@ -11,7 +11,7 @@ kill_timeout = "5s"
   auto_rollback = true
 
 [build]
-  image = "louislam/uptime-kuma:1.23.11"
+  image = "louislam/uptime-kuma:1.23.15"
 
 [env]
   PORT = "8080"
